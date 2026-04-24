@@ -25,6 +25,7 @@ generative-synth/
     ├── gs_filter_view.png
     └── gs_rand_view.png
 
+<img src="media/gs.png" width="600">
 
 
 The following subpatches:
