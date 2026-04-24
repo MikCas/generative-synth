@@ -10,22 +10,34 @@ A generative synthesiser for FM synthesis built in Max for Live. Explore the dif
 1. Download `Generative.amxd`.
 2. Drag and drop it into a MIDI track in Ableton Live.
 
-## Architecture & Subpatches
-Below is a breakdown of the modular components that make up this synthesizer.
+## Architecture
+The following subpatches:
 
-
-### 2. Controlled Randomness - `gs_rand.maxpat`
+### 1. Controlled Randomness - `gs_rand.maxpat`
 On bang, `gs_rand` outputs a uniform random value centered around x, where variance controls the amount of possible variation. The output is guaranteed to be within [a, b]. Use low variance for subtle movement, and higher variance for jumps.
 
 **Inputs**:
-- bang: trigger new random number
+- randomise (bang): trigger new random number
 - x [a, b]: base value in range 
 - a, b: minimum and maximum bounds (set as patch arguments)
 - variance [0, 1]: amount of random spread around x
 
 <img src="media/gs_rand.png" width="600">
 
-### 1. Filter (`gs_filter.maxpat`)
+### 2. Oscillator (`gs_osc.maxpat`)
+On each bang, gs_osc chooses one of five oscillator types: sine, triangle, square, sawtooth, or noise. The selected waveform is played at the incoming frequency and sent to the output.
+
+**Inputs**:
+- randomise (bang): randomly selects a waveform
+- frequency: oscillator pitch in Hz
+
+<img src="media/gs_osc.png" width="600">
+
+### 2. Envelope (`gs_env.maxpat`)
+[Description of how the filter works will go here.]
+*(Image will go here)*
+
+### 2. Filter (`gs_filter.maxpat`)
 [Description of how the filter works will go here.]
 *(Image will go here)*
 
