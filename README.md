@@ -1,6 +1,6 @@
-# Generative 
+# Generative
 
-A generative synthesizer built in Max for Live. 
+A generative synthesizer built in Max for Live.
 
 ## Overview
 [Write a brief description of what the synth sounds like and does.]
@@ -13,7 +13,7 @@ A generative synthesiser for FM synthesis built in Max for Live. Explore the dif
 ## Architecture
 The following subpatches:
 
-### 1. Controlled Randomness - `gs_rand.maxpat`
+### 1. Controlled Randomness (`gs_rand.maxpat`)
 On bang, `gs_rand` outputs a uniform random value centered around x, where variance controls the amount of possible variation. The output is guaranteed to be within [a, b]. Use low variance for subtle movement, and higher variance for jumps.
 
 **Inputs**:
@@ -33,9 +33,29 @@ On each bang, gs_osc chooses one of five oscillator types: sine, triangle, squar
 
 <img src="media/gs_osc.png" width="600">
 
-### 2. Envelope (`gs_env.maxpat`)
-[Description of how the filter works will go here.]
-*(Image will go here)*
+### 3. Envelope (`gs_env.maxpat`)
+**Inputs**:
+- randomise (bang): randomises the envelope shape
+- velocity [0, 127]: note velocity
+- attack [1ms, 5000ms]: attack time
+- decay [1ms, 5000ms]: decay time
+- sustain [0, 1]: sustain level
+- release [1ms, 5000ms]: release time
+
+On each bang, `gs_env` generates a new ADSR envelope by randomising its attack, decay, sustain, and release values. It shapes the incoming velocity with a new envelope on each trigger.
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Patch</strong><br>
+      <img src="media/gs_env.png" width="400">
+    </td>
+    <td align="center">
+      <strong>Presentation</strong><br>
+      <img src="media/gs_env_pres.png" width="400">
+    </td>
+  </tr>
+</table>
 
 ### 2. Filter (`gs_filter.maxpat`)
 [Description of how the filter works will go here.]
