@@ -3,7 +3,6 @@
 A generative synthesizer built in Max for Live.
 
 ## Overview
-[Write a brief description of what the synth sounds like and does.]
 A generative synthesiser for FM synthesis built in Max for Live. Explore the different elements of frequency modulation and randomise to create interesting and complex sounds. 
 
 ## Installation
