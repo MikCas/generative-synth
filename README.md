@@ -1,34 +1,34 @@
 # Generative
 
-A generative synthesizer built in Max for Live.
-
-## Overview
-A generative synthesiser for FM synthesis built in Max for Live. Explore the different elements of frequency modulation and randomise to create interesting and complex sounds. 
+A generative FM synthesiser built in Max for Live, designed for exploring interesting, complex, and evolving sounds. The engine modulates a carrier wave with a modulator, allowing you to randomise the oscillators, envelopes, and filter.
 
 ## Installation
 1. Download `Generative.amxd`.
 2. Drag and drop it into a MIDI track in Ableton Live.
 
+*Because this synthesizer relies heavily on constrained randomness, it can occasionally generate harmonically dense signals or sudden volume spikes. Use a limiter just in case.*
+
 ## Architecture
 
+```text
 generative-synth/
-├── .git/                       
+├── .git/                        
 ├── .gitignore                  
 ├── README.md                   
-├── Generative.amxd             # Frozen device for Ableton
-├── generative_synth_DEV.amxd   # Unfrozen development file
-├── patchers/                   # Subpatches
+├── Generative.amxd             
+├── patchers/                   
+│   ├── generative_synth_DEV.amxd
+│   ├── gs_env.maxpat
 │   ├── gs_filter.maxpat
-│   ├── gs_rand.maxpat
-│   └── gs_osc.maxpat
+│   ├── gs_osc.maxpat
+│   └── gs_rand.maxpat
 └── media/                      
-    ├── gs_filter_view.png
-    └── gs_rand_view.png
+    └── [UI screenshots]
+```
 
 <img src="media/gs.png" width="600">
 
-
-The following subpatches:
+## Patches
 
 ### Controlled Randomness (`gs_rand.maxpat`)
 On bang, `gs_rand` outputs a uniform random value centered around x, where variance controls the amount of possible variation. The output is guaranteed to be within [a, b]. Use low variance for subtle movement, and higher variance for jumps.
@@ -97,3 +97,13 @@ On each bang, gs_filter updates the filter settings and routes the incoming sign
     </td>
   </tr>
 </table>
+
+## Requirements
+* Ableton Live 11 (or higher) Suite, OR Ableton Live Standard with the Max for Live add-on.
+* Max 8 (bundled with Ableton).
+
+## Author
+Developed by Mikhail Cassar. Feel free to reach out with any bugs, feedback, or cool sounds you generate!
+
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this device, as well as use it in commercial musical releases.
