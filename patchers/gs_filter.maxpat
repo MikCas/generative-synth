@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
 		"openinpresentation" : 1,
-		"gridsize" : [ 6.0, 6.0 ],
+		"gridsize" : [ 18.0, 18.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-46",
@@ -40,25 +40,25 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
-					"blinkcolor" : [ 0.101960784313725, 0.490196078431373, 0.945098039215686, 1.0 ],
+					"bgcolor" : [ 0.235294117647059, 0.415686274509804, 0.713725490196078, 1.0 ],
+					"blinkcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"id" : "obj-36",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"outlinecolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 323.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 114.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 234.0, 90.0, 18.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
-							"expression" : "themecolor.live_control_fill_handle"
+							"expression" : "themecolor.live_prelisten"
 						}
 ,
 						"blinkcolor" : 						{
-							"expression" : "themecolor.live_prelisten"
+							"expression" : "themecolor.live_control_fill_handle"
 						}
 ,
 						"outlinecolor" : 						{
@@ -72,7 +72,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"bgcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"fontface" : 1,
 					"id" : "obj-32",
 					"maxclass" : "live.comment",
@@ -80,7 +80,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 786.0, 58.0, 149.999989986419678, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 114.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 0.0, 90.0, 36.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_control_fill_handle"
@@ -93,14 +93,14 @@
 					}
 ,
 					"text" : "Filter",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"textcolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"bgcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"fontface" : 1,
 					"id" : "obj-31",
 					"maxclass" : "live.comment",
@@ -108,7 +108,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 786.0, 141.0, 149.999989986419678, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 132.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 0.0, 108.0, 36.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_control_fill_handle"
@@ -121,14 +121,14 @@
 					}
 ,
 					"text" : "Freq",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"textcolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"bgcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"fontface" : 1,
 					"id" : "obj-30",
 					"maxclass" : "live.comment",
@@ -136,7 +136,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 786.0, 195.0, 149.999989986419678, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 96.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 0.0, 72.0, 36.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_control_fill_handle"
@@ -149,14 +149,14 @@
 					}
 ,
 					"text" : "Amp",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"textcolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"bgcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"fontface" : 1,
 					"id" : "obj-28",
 					"maxclass" : "live.comment",
@@ -164,7 +164,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 786.0, 219.0, 149.999989986419678, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 150.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 0.0, 126.0, 36.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_control_fill_handle"
@@ -177,32 +177,32 @@
 					}
 ,
 					"text" : "Res",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"textcolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
-					"blinkcolor" : [ 0.101960784313725, 0.490196078431373, 0.945098039215686, 1.0 ],
+					"bgcolor" : [ 0.235294117647059, 0.415686274509804, 0.713725490196078, 1.0 ],
+					"blinkcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"id" : "obj-20",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"outlinecolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 643.0, 323.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 150.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 234.0, 126.0, 18.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
-							"expression" : "themecolor.live_control_fill_handle"
+							"expression" : "themecolor.live_prelisten"
 						}
 ,
 						"blinkcolor" : 						{
-							"expression" : "themecolor.live_prelisten"
+							"expression" : "themecolor.live_control_fill_handle"
 						}
 ,
 						"outlinecolor" : 						{
@@ -216,25 +216,25 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
-					"blinkcolor" : [ 0.101960784313725, 0.490196078431373, 0.945098039215686, 1.0 ],
+					"bgcolor" : [ 0.235294117647059, 0.415686274509804, 0.713725490196078, 1.0 ],
+					"blinkcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"id" : "obj-17",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"outlinecolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 497.0, 323.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 132.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 234.0, 108.0, 18.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
-							"expression" : "themecolor.live_control_fill_handle"
+							"expression" : "themecolor.live_prelisten"
 						}
 ,
 						"blinkcolor" : 						{
-							"expression" : "themecolor.live_prelisten"
+							"expression" : "themecolor.live_control_fill_handle"
 						}
 ,
 						"outlinecolor" : 						{
@@ -263,7 +263,7 @@
 					"appearance" : 4,
 					"id" : "obj-5",
 					"lcdbgcolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 0.0 ],
-					"lcdcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"lcdcolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -271,7 +271,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 643.0, 423.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 66.0, 150.0, 60.000001788139343, 18.000000536441803 ],
+					"presentation_rect" : [ 36.0, 126.0, 54.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"lcdbgcolor" : 						{
 							"expression" : ""
@@ -297,7 +297,6 @@
 
 					}
 ,
-					"textjustification" : 0,
 					"varname" : "live.numbox[6]"
 				}
 
@@ -307,7 +306,7 @@
 					"appearance" : 4,
 					"id" : "obj-4",
 					"lcdbgcolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 0.0 ],
-					"lcdcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"lcdcolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -315,7 +314,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 570.0, 423.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 66.0, 96.0, 60.000001788139343, 15.0 ],
+					"presentation_rect" : [ 36.0, 72.0, 54.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"lcdbgcolor" : 						{
 							"expression" : ""
@@ -340,7 +339,6 @@
 
 					}
 ,
-					"textjustification" : 0,
 					"varname" : "live.numbox[2]"
 				}
 
@@ -350,7 +348,7 @@
 					"appearance" : 4,
 					"id" : "obj-67",
 					"lcdbgcolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 0.0 ],
-					"lcdcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"lcdcolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -358,7 +356,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 497.0, 423.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 66.0, 131.0, 59.999992489814758, 18.000000536441803 ],
+					"presentation_rect" : [ 36.0, 108.0, 54.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"lcdbgcolor" : 						{
 							"expression" : ""
@@ -370,7 +368,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 8.0,
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 1000 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Frequency",
 							"parameter_mmax" : 10000.0,
@@ -384,7 +382,6 @@
 
 					}
 ,
-					"textjustification" : 0,
 					"varname" : "live.numbox[1]"
 				}
 
@@ -403,7 +400,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"bgcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"id" : "obj-139",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -413,7 +410,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 612.0, 57.0, 138.0, 187.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.0, 132.0, 120.0, 36.0 ],
+					"presentation_rect" : [ 90.0, 108.0, 144.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_control_fill_handle"
@@ -428,7 +425,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 2,
-					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ],
+					"slidercolor" : [ 0.094117647058824, 0.094117647058824, 0.094117647058824, 1.0 ],
 					"thickness" : 1
 				}
 
@@ -532,12 +529,12 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
-					"curvecolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"bgcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
+					"curvecolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"fontface" : 0,
-					"hcurvecolor" : [ 0.874509803921569, 0.874509803921569, 0.874509803921569, 1.0 ],
+					"hcurvecolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ],
 					"id" : "obj-15",
-					"markercolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"markercolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"maxclass" : "filtergraph~",
 					"nfilters" : 1,
 					"numdisplay" : 0,
@@ -547,7 +544,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 473.0, 530.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 252.0, 96.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 252.0, 72.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_control_fill_handle"
@@ -571,8 +568,8 @@
 
 					}
 ,
-					"setfilter" : [ 0, 3, 1, 0, 0, 1000.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"setfilter" : [ 0, 1, 1, 0, 0, 1000.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"textcolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ]
 				}
 
 			}
@@ -616,12 +613,12 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"activebgcolor" : [ 0.364705882352941, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
 					"id" : "obj-18",
 					"lcdbgcolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 0.0 ],
-					"lcdcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
+					"lcdcolor" : [ 0.027450980392157, 0.027450980392157, 0.027450980392157, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -629,7 +626,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 132.0, 383.0, 72.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 66.0, 115.0, 60.000001788139343, 15.0 ],
+					"presentation_rect" : [ 36.0, 90.0, 54.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.live_control_fill_handle"
@@ -743,31 +740,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 132.0, 21.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.737254901960784, 0.737254901960784, 0.737254901960784, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.2 ],
-					"id" : "obj-68",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 209.0, 164.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 96.0, 252.333340853452682, 72.000009298324585 ],
-					"proportion" : 0.39,
-					"rounded" : 0,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : "themecolor.live_macro_title"
-						}
-
-					}
-
 				}
 
 			}
