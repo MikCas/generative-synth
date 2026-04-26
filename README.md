@@ -2,6 +2,8 @@
 
 A generative FM synthesiser built in Max for Live, designed for exploring interesting, complex, and evolving sounds. The engine modulates a carrier wave with a modulator, allowing you to randomise the oscillators, envelopes, and filter.
 
+<img src="media/gs_pres.png" width="600">
+
 ## Installation
 1. Download `Generative.amxd`.
 2. Drag and drop it into a MIDI track in Ableton Live.
