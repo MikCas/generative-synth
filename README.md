@@ -2,7 +2,9 @@
 
 A generative FM synthesiser built in Max for Live, designed for exploring interesting, complex, and evolving sounds. The engine modulates a carrier wave with a modulator, allowing you to randomise the oscillators, envelopes, and filter.
 
-<img src="media/gs_pres.png" width="600">
+<p align="center">
+  <img src="media/gs_pres.png" width="600">
+</p>
 
 ## Installation
 1. Download `Generative.amxd`.
@@ -28,7 +30,9 @@ generative-synth/
     └── [UI screenshots]
 ```
 
-<img src="media/gs.png" width="600">
+<p align="center">
+    <img src="media/gs.png" width="50%"><p></p>
+</p>
 
 ## Patches
 
@@ -41,7 +45,10 @@ On bang, `gs_rand` outputs a uniform random value centered around x, where varia
 - a, b: minimum and maximum bounds (set as patch arguments)
 - variance [0, 1]: amount of random spread around x
 
-<img src="media/gs_rand.png" width="600">
+<p align="center">
+    <img src="media/gs_rand.png" width="600">
+</p>
+
 
 ### Oscillator (`gs_osc.maxpat`)
 On each bang, gs_osc chooses one of five oscillator types: sine, triangle, square, sawtooth, or noise. The selected waveform is played at the incoming frequency and sent to the output.
@@ -50,7 +57,9 @@ On each bang, gs_osc chooses one of five oscillator types: sine, triangle, squar
 - randomise (bang): randomly selects a waveform
 - frequency: oscillator pitch in Hz
 
-<img src="media/gs_osc.png" width="600">
+<p align="center">
+    <img src="media/gs_osc.png" width="600">
+</p>
 
 ### Envelope (`gs_env.maxpat`)
 On each bang, `gs_env` generates a new ADSR envelope by randomising its attack, decay, sustain, and release values. It shapes the incoming velocity with a new envelope on each trigger.
