@@ -31,7 +31,7 @@ generative-synth/
 ```
 
 <p align="center">
-    <img src="media/gs.png" width="50%"><p></p>
+    <img src="media/gs.png" width="50%">
 </p>
 
 ## Patches
