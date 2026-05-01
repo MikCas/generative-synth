@@ -1,6 +1,6 @@
 # Generative Synth
 
-A generative FM synthesiser built in Max for Live, designed for exploring interesting, complex, and evolving sounds. The engine modulates a carrier wave with a modulator, allowing you to randomise the oscillators, envelopes, and filter.
+When using the native Ableton Live synthesisers, I spent a lot of time tuning parameters to find the perfect sound. This Max for Live tool is designed for faster exploration and design iteration of FM sounds. The main parameters of an FM synth can be randomised (oscillators, envelopes, and filters) to create interesting, complex, and evolving sounds. 
 
 <p align="center">
   <img src="media/gs_pres.png" width="600">
