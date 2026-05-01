@@ -1,4 +1,4 @@
-# Generative Synthesiser
+# Generative Synth
 
 A generative FM synthesiser built in Max for Live, designed for exploring interesting, complex, and evolving sounds. The engine modulates a carrier wave with a modulator, allowing you to randomise the oscillators, envelopes, and filter.
 
