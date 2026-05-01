@@ -1,6 +1,6 @@
 # Generative Synth
 
-When using the native Ableton Live synthesisers, I spent a lot of time tuning parameters to find the perfect sound. This Max for Live tool is designed for faster exploration and design iteration of FM sounds. The main parameters of an FM synth can be randomised (oscillators, envelopes, and filters) to create interesting, complex, and evolving sounds. 
+When using the native Ableton Live synthesisers, I spent a lot of time tuning parameters to find the perfect sound. This Max for Live tool is designed for faster exploration and design iteration of FM sounds. The main parameters of an FM synth can be randomised (oscillators, envelopes, and filters), while also controlling the amount of variation to create interesting, complex, and evolving sounds. 
 
 <p align="center">
   <img src="media/gs_pres.png" width="600">
